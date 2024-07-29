@@ -1,0 +1,126 @@
+
+:root {
+    --primary-color: rgb(13, 185, 22); /* Example value */
+    --off-yellow: #ffeb3b; /* Example value */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-pills {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.list-item-inline {
+    margin-right: 20px;
+}
+
+.list-item-inline a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.list-item-inline a:hover {
+    text-decoration: underline;
+}
+
+.img-box {
+    display: flex;
+    justify-content: right;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+  
+}
+
+.hero .hero-img {
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(rgb(0, 255, 47))
+}
+
+.heading-inverted{
+    color: rgb(255, 196, 0);
+}
+.section {
+   
+    padding: 2rem;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+
+}
+link{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    color: var(--off-yellow);
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+.link-primary-1 {
+    background-color: ;
+    border: 1px solid black;
+    max-width: 140px;
+    padding: .6rem 1.2rem;
+    color: var(--primary-color);
+    margin: 1rem auto;
+    border-radius: 2rem;
+
+}
+.link-primary-2 {
+    background-color: ;
+    border: 1px solid black;
+    max-width: 140px;
+    padding: .6rem 1.2rem;
+    color: var(--primary-color);
+    margin: 1rem auto;
+    border-radius: 2rem;
+
+}
+.color{
+    padding: 2rem;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+
+
+
+
